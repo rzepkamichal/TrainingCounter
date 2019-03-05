@@ -33,6 +33,7 @@ public class TrainingOverviewContoller {
         trainingNameCol.setCellValueFactory(cellData -> cellData.getValue().trainingNameProperty());
         amountOfEntrancesCol.setCellValueFactory(cellData -> cellData.getValue().amountOfEntrancesProperty().asObject());
         lastActivityDateCol.setCellValueFactory(cellData -> cellData.getValue().lastActivityDateProperty().asString());
+
     }
 
 }

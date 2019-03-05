@@ -27,6 +27,14 @@ public class Training {
         this.lastActivityDate = new SimpleObjectProperty<LocalDate>(LocalDate.from(lastActivityDate));
     }
 
+    @JsonCreator
+    public Training(@JsonProperty("name") String trainingName) {
+
+        this.trainingName = new SimpleStringProperty(trainingName);
+        this.amountOfEntrances = null;
+        this.lastActivityDate = null;
+    }
+
     public String getTrainingName() {
         return trainingName.get();
     }
