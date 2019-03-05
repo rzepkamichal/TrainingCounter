@@ -9,7 +9,7 @@ import java.time.LocalDate;
 public class Training {
 
     private final StringProperty trainingName;
-    private IntegerProperty amountOfEntrances;
+    private final IntegerProperty amountOfEntrances;
     private ObjectProperty<LocalDate> lastActivityDate;
 
 
