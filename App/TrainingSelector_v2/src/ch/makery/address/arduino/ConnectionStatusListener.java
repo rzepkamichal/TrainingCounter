@@ -23,7 +23,6 @@ public class ConnectionStatusListener implements PropertyChangeListener {
                     port.removeDataListener();
                     System.out.println("removed " + port.getSystemPortName());
                 }
-                System.out.println("hej");
             }
         }
     }

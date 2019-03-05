@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ch/makery/address/util/ArduinoCommunicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoCommunicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoCommunicator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoCommunicator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/makery/address/arduino/ConnectionStatusListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/makery/address/arduino/ConnectionStatusListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ch/makery/address/view/TrainingOverview.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/ch/makery/address/view/TrainingOverview.fxml" afterDir="false" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -82,14 +84,14 @@
       <file leaf-file-name="ArduinoCommunicator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoCommunicator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+            <state relative-caret-position="224">
+              <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2073#2074#0" expanded="true" />
                 <element signature="e#2177#2178#0" expanded="true" />
-                <element signature="e#7170#7171#0" expanded="true" />
-                <element signature="e#7258#7259#0" expanded="true" />
+                <element signature="e#7316#7317#0" expanded="true" />
+                <element signature="e#7404#7405#0" expanded="true" />
                 <element signature="e#8288#8289#0" expanded="true" />
                 <element signature="e#8328#8329#0" expanded="true" />
                 <element signature="e#8383#8384#0" expanded="true" />
@@ -103,11 +105,46 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConnectionStatus.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ConnectionStatus.java">
+      <file leaf-file-name="TestCommunication.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/TestCommunication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArduinoDataReceiver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoDataReceiver.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+              <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionStatusListener.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ConnectionStatusListener.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#332#333#0" expanded="true" />
+                <element signature="e#372#373#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ConnectionStatus.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ConnectionStatus.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -121,30 +158,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="JsonParser.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/makery/address/util/JsonParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TrainingList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/ch/makery/address/model/TrainingList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TrainingOverview.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ch/makery/address/view/TrainingOverview.fxml">
-          <provider editor-type-id="JavaFX-Scene-Builder" />
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" column="66" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="66" />
             </state>
           </provider>
         </entry>
@@ -184,8 +202,10 @@
         <option value="$PROJECT_DIR$/src/ch/makery/address/util/JsonParser.java" />
         <option value="$PROJECT_DIR$/src/ch/makery/address/view/TrainingOverview.fxml" />
         <option value="$PROJECT_DIR$/src/ch/makery/address/MainApp.java" />
-        <option value="$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoCommunicator.java" />
         <option value="$PROJECT_DIR$/src/ch/makery/address/arduino/ConnectionStatus.java" />
+        <option value="$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoDataReceiver.java" />
+        <option value="$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoCommunicator.java" />
+        <option value="$PROJECT_DIR$/src/ch/makery/address/arduino/ConnectionStatusListener.java" />
       </list>
     </option>
   </component>
@@ -453,8 +473,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2073#2074#0" expanded="true" />
             <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#7170#7171#0" expanded="true" />
-            <element signature="e#7258#7259#0" expanded="true" />
+            <element signature="e#7316#7317#0" expanded="true" />
+            <element signature="e#7404#7405#0" expanded="true" />
             <element signature="e#8288#8289#0" expanded="true" />
             <element signature="e#8328#8329#0" expanded="true" />
             <element signature="e#8383#8384#0" expanded="true" />
@@ -532,8 +552,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2073#2074#0" expanded="true" />
             <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#7170#7171#0" expanded="true" />
-            <element signature="e#7258#7259#0" expanded="true" />
+            <element signature="e#7316#7317#0" expanded="true" />
+            <element signature="e#7404#7405#0" expanded="true" />
             <element signature="e#8288#8289#0" expanded="true" />
             <element signature="e#8328#8329#0" expanded="true" />
             <element signature="e#8383#8384#0" expanded="true" />
@@ -604,8 +624,8 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2073#2074#0" expanded="true" />
             <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#7170#7171#0" expanded="true" />
-            <element signature="e#7258#7259#0" expanded="true" />
+            <element signature="e#7316#7317#0" expanded="true" />
+            <element signature="e#7404#7405#0" expanded="true" />
             <element signature="e#8288#8289#0" expanded="true" />
             <element signature="e#8328#8329#0" expanded="true" />
             <element signature="e#8383#8384#0" expanded="true" />
@@ -711,16 +731,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoCommunicator.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ConnectionStatus.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoDataReceiver.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="63" column="14" selection-start-line="63" selection-start-column="14" selection-end-line="63" selection-end-column="14" />
+          <caret line="4" column="39" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ArduinoCommunicator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="120" column="16" selection-start-line="120" selection-start-column="16" selection-end-line="120" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2073#2074#0" expanded="true" />
             <element signature="e#2177#2178#0" expanded="true" />
-            <element signature="e#7170#7171#0" expanded="true" />
-            <element signature="e#7258#7259#0" expanded="true" />
+            <element signature="e#7316#7317#0" expanded="true" />
+            <element signature="e#7404#7405#0" expanded="true" />
             <element signature="e#8288#8289#0" expanded="true" />
             <element signature="e#8328#8329#0" expanded="true" />
             <element signature="e#8383#8384#0" expanded="true" />
@@ -733,10 +770,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ConnectionStatus.java">
+    <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/TestCommunication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+        <state relative-caret-position="34">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ch/makery/address/arduino/ConnectionStatusListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="34" lean-forward="true" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#332#333#0" expanded="true" />
+            <element signature="e#372#373#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

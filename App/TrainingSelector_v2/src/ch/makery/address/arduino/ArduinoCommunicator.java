@@ -113,71 +113,11 @@ public class ArduinoCommunicator {
 
             }
 
-
-
-
-
-        /*
-        String[] availablePortNames = getPortNames();
-        SerialPort port;
-        for(int i = 0; i < availablePortNames.length; i++){
-            port = SerialPort.getCommPort(availablePortNames[i]);
-            if(port.openPort()){
-                System.out.println("Scanning port: " + availablePortNames[i]);
-                int timeToSetUpArduino = 3000;
-                int timeToWaitForAnswer = 100;
-                String sendMessage = "PC";
-                String expectedAnswer = "nano";
-                //give the uC time to initialize
-                try {
-                    Thread.sleep(timeToWaitForAnswer);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                //set some properties I have no idea what they are for
-                port.setComPortTimeouts(SerialPort.TIMEOUT_READ_SEMI_BLOCKING, 0, 0);
-                //again, time for uC to initialize
-                try {
-                    Thread.sleep(timeToSetUpArduino);
-                }catch (InterruptedException e){
-                    e.printStackTrace();
-                }
-                //send an initializing message to the arduino
-                PrintWriter output = new PrintWriter(port.getOutputStream());
-                output.print(sendMessage);
-                output.flush();
-                //give the arduino time to receive the message and answer
-                try {
-                    Thread.sleep(timeToWaitForAnswer);
-                } catch (InterruptedException e) {
-                    e.printStackTrace();
-                }
-                //receive data from arduino
-                String buffer = "";
-                Scanner arduinoInput = new Scanner(port.getInputStream());
-                try {
-                    if (port.getInputStream().available() > 0) {
-                        if (arduinoInput.hasNext()) {
-                            buffer = arduinoInput.nextLine();
-                        }
-                        if (buffer.equals(expectedAnswer)) {
-                            this.portFound = true;
-                            this.port = port;
-                            System.out.println("Detected Arduino Board on port: "+availablePortNames[i]);
-                            return;
-                        }
-                    }
-                }catch (java.io.IOException e){
-                }
-            }
-        }*/
-
         }
 
         public void removeListeners(SerialPort[] ports) {
 
             for (int i = 0; i < ports.length; i++) {
-                System.out.println("Shit");
                 ports[i].removeDataListener();
             }
         }
