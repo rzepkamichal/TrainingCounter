@@ -1,4 +1,4 @@
-package arduino_util;
+package ch.makery.address.arduino_util;
 
 public abstract class ArduinoDataReceiver {
 

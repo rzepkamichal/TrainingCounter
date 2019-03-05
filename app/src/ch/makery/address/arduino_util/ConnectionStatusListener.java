@@ -1,4 +1,4 @@
-package arduino_util;
+package ch.makery.address.arduino_util;
 
 import com.fazecast.jSerialComm.SerialPort;
 

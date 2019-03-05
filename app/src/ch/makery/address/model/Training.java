@@ -1,14 +1,10 @@
-package model;
+package ch.makery.address.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;
-import javafx.beans.InvalidationListener;
 import javafx.beans.property.*;
-import javafx.beans.value.ChangeListener;
-import javafx.beans.value.ObservableValue;
 
 import java.time.LocalDate;
-import java.util.Date;
 
 public class Training {
 
