@@ -1,4 +1,4 @@
-package ch.makery.address;
+package main;
 
 import javafx.application.Application;
 import javafx.scene.Scene;

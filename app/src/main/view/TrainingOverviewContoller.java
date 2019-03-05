@@ -1,10 +1,10 @@
-package ch.makery.address.view;
+package main.view;
 
-import ch.makery.address.MainApp;
+import main.MainApp;
 import javafx.fxml.FXML;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
-import ch.makery.address.model.Training;
+import main.model.Training;
 
 public class TrainingOverviewContoller {
 

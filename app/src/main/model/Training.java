@@ -1,4 +1,4 @@
-package ch.makery.address.model;
+package main.model;
 
 import com.fasterxml.jackson.annotation.JsonCreator;
 import com.fasterxml.jackson.annotation.JsonProperty;

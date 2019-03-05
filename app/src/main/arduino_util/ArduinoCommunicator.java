@@ -1,4 +1,4 @@
-package ch.makery.address.arduino_util;
+package main.arduino_util;
 
 import com.fazecast.jSerialComm.SerialPort;
 import com.fazecast.jSerialComm.SerialPortDataListener;
