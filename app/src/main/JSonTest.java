@@ -17,16 +17,18 @@ public class JSonTest {
         String filename = "C:\\Users\\sysoper\\Desktop\\test.json";
 
         List<SingleDayTraining> list = new ArrayList<SingleDayTraining>();
+        List<TrainingTest> trainingList = new ArrayList<TrainingTest>();
 
         list.add(new SingleDayTraining("29.03.2019",20));
         list.add(new SingleDayTraining("24.02.2018",20));
         list.add(new SingleDayTraining("23.01.2019",20));
 
-        TrainingTest training = new TrainingTest("Boks", list);
+        trainingList.add(new TrainingTest("Boks", list));
+        trainingList.add(new TrainingTest("MMA", list));
 
         ObjectMapper mapper = new ObjectMapper();
         try {
-            mapper.writeValue(new File(filename), training);
+            mapper.writeValue(new File(filename), trainingList);
         } catch (IOException e) {
             e.printStackTrace();
         }
