@@ -23,7 +23,7 @@ public class MainApp extends Application {
 
     public MainApp(){
 
-        LocalDate date = new LocalDate(1972,12,23);
+       // LocalDate date = new LocalDate(1972,12,23);
         //trainingList.add(new Training("trening1",date,));
     }
 
